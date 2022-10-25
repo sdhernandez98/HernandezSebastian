@@ -12,8 +12,12 @@ import java.util.List;
  */
 public class CortarPorError implements EstrategiaEjecucion {
     
- @Override
- public void ejecutar(List){
+    /**
+     *
+     * @param falla
+     */
+    @Override
+ public void ejecutar(List falla){
      
  }
 }

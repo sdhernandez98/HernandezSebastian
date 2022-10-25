@@ -12,7 +12,7 @@ import java.util.List;
  */
 public interface EstrategiaEjecucion {
     
-    public void ejecutar(List){
-        
+    public void ejecutar(List falla);
+       
     }
-}
+

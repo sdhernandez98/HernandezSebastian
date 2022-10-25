@@ -10,9 +10,12 @@ package com.mycompany.hernandezsebastian;
  */
 public class TareaCompuesta extends Tarea {
  
-    /**
-     *
-     */
+    
+    public TareaCompuesta (boolean habilitada, boolean deshabilitarSiFalta) {
+      super (habilitada, deshabilitarSiFalta);
+    }
+    
+    
     @Override
     public void doEjecutar(){
         
